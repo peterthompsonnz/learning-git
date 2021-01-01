@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    padding: 0;
+    color: #333;
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 0;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.75rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(41, 194, 255);
+    text-decoration: underline;
+}
+
+figure {
+    display: inline-block;
+    margin: 0;
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+
+figcaption {
+    font-size: 0.85rem;
+    margin: 0.25em 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
